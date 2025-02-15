@@ -24,15 +24,10 @@ body {
 }
 .notes__list {
 
-    height: 700px; 
+    max-height: 700px; 
     overflow-y: auto; 
     padding-bottom: 50px;
 }
-
-
-
-
-
 .notes__add {
     background:#F5BC41;
     border: none;
@@ -43,7 +38,8 @@ body {
     font-weight: bold;
     margin-bottom: 1em;
     padding: 0.75em 0;
-    width: 100%;
+    width:80%;
+    margin-left: 40px;
     box-shadow: 0px -4px 8px #aaaaaa; 
     position: sticky;
 }
@@ -55,10 +51,11 @@ body {
 .notes__list-item {
     cursor: pointer;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
-    border-top-left-radius: 7px; 
-    border-bottom-left-radius: 7px; 
+    border-radius: 7px; 
     padding: 10px;
+    width: 95%;
     margin-top: 10px;
+    margin-bottom: 0px;
     background: white; 
     transition: box-shadow 0.3s ease, transform 0.2s ease; 
 }
@@ -149,33 +146,34 @@ body {
         font-size: 1em;
         padding: 1em;
         margin-top: 10px;
-        width: 25%;
+        width: 30%;
         height: 40px;
+        margin-left:0px;
         position: sticky;
         bottom: 0;
         box-shadow: 0px -4px 8px #aaaaaa; 
     }
 
     .notes__list {
-        width: 90%;
+        width: 100%;
         display: flex;
         left: 0 !important;
         flex-wrap: wrap;
         justify-content: center;
-        height: 400px; 
+        max-height: 400px; 
         overflow-y: auto; 
         padding-bottom: 50px;
+    
     }
 
     .notes__list-item {
-        width:100%;
-        border-radius: 7px; 
-        margin-bottom: 5px;
+        width:90%;
+        border-radius: 7px;  
         height: 95px;
         text-align: left !important;
         
+    
     }
-
     .notes__preview {
         padding: 1em;
     }
@@ -212,6 +210,7 @@ body {
         font-size: 1em;
         padding: 1em;
         margin-top: 10px;
+        margin-left:0px;
         width: 30%;
         height: 40px;
         position: sticky;
@@ -220,19 +219,18 @@ body {
     }
 
     .notes__list {
-        width: 90%;
+        width: 100%;
         display: flex;
         left: 0 !important;
         flex-wrap: wrap;
         justify-content: center;
-        height: 400px; 
+        max-height: 400px; 
         overflow-y: auto; 
         padding-bottom: 50px;
     }
 
     .notes__list-item {
-        width:100%;
-        margin-bottom: 5px;
+        width:90%;
         border-radius: 7px; 
         height: 95px;
         text-align: left !important;
