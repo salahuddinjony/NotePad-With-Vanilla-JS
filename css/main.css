@@ -143,16 +143,23 @@ body {
     }
 
     .notes__add {
-        font-size: 1em;
-        padding: 1em;
+        cursor: pointer;
+        font-size: 1.25em;
+        font-weight: bold;
+        padding: 0.75em 0;
         margin-top: 10px;
         width: 30%;
         height: 40px;
         margin-left:0px;
         position: sticky;
         bottom: 0;
+        display: block;
+        flex-shrink: 0; /* Prevents shrinking */
         box-shadow: 0px -4px 8px #aaaaaa; 
     }
+
+
+
 
     .notes__list {
         width: 100%;
@@ -208,14 +215,18 @@ body {
     }
 
     .notes__add {
-        font-size: 1em;
-        padding: 1em;
+        cursor: pointer;
+        font-size: 1.25em;
+        font-weight: bold;
+        padding: 0.75em 0;
         margin-top: 10px;
-        margin-left:0px;
         width: 30%;
         height: 40px;
+        margin-left:0px;
         position: sticky;
         bottom: 0;
+        display: block;
+        flex-shrink: 0; /* Prevents shrinking */
         box-shadow: 0px -4px 8px #aaaaaa; 
     }
 
