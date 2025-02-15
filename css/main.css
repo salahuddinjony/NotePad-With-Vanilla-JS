@@ -170,6 +170,7 @@ body {
         width:90%;
         border-radius: 7px;  
         height: 95px;
+        margin-left: 7px;
         text-align: left !important;
         
     
@@ -233,6 +234,7 @@ body {
         width:90%;
         border-radius: 7px; 
         height: 95px;
+        margin-left: 10px;
         text-align: left !important;
         
     }
